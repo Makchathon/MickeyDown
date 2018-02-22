@@ -2,10 +2,18 @@
 <html>
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/css/style.css' />
+    <!-- cdn이란? 공공 서버에 올라와있는거. 유료무료있어요 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
+    <%= title %>
+    <%- title %>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+    <input type="text" id="abc" class="ddd asdf kjhg">
+    <button id="btnSend">fffffff</button>
+    <script src="/js/index.js"></script>
   </body>
 </html>
