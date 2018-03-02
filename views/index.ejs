@@ -8,12 +8,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
-    <%= title %>
+    <!-- <%= title %>
     <%- title %>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
     <input type="text" id="abc" class="ddd asdf kjhg">
-    <button id="btnSend">fffffff</button>
+    <button id="btnSend">fffffff</button> -->
+
+    <div id="write">
+      <h1>제목을 써주세요</h1>
+    </div>
+
+    <!-- 스크립트 호출 순서가 너무 헷갈려요ㅠㅠ
+    bin/www - app.js - routes/index.js - views/index.ejs - public/js/index.js
+    -->
     <script src="/js/index.js"></script>
   </body>
 </html>

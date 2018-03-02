@@ -6,6 +6,7 @@ $(document).ready(function() {
         alert(data.message);
     });
 
+    // # = id, . = class
     $("#btnSend").click(function(){
         var message = $("#abc").val();
         socket.emit("abc", {
